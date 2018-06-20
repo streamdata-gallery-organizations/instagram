@@ -10,10 +10,10 @@ description: Instagram is an online mobile photo-sharing, video-sharing and soci
   their images. The maximum duration for Instagram videos is 15 seconds.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Instagram
-created: "2018-05-22"
-modified: "2018-05-22"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/instagram/master/_listings/instagram/apis.md
 specificationVersion: "0.14"
 apis:
