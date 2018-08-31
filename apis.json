@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Instagram",
+	"description": "This is a repository of instagram APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/instagram.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://instagram.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Instagram",
+			"x-api-slug": "instagram",
+			"description": "Instagram is an online mobile photo-sharing, video-sharing and social networking service that enables its users to take pictures and videos, and share them on a variety of social networking platforms, such as Facebook, Twitter, Tumblr and Flickr. A distinctive feature is that it confines photos to a square shape, similar to Kodak Instamatic and Polaroid images, in contrast to the 4:3 aspect ratio typically used by mobile device cameras. Users can also apply digital filters to their images. The maximum duration for Instagram videos is 15 seconds.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png",
+			"humanURL": "http://instagram.com",
+			"baseURL": "https:///",
+			"tags": "Instagram",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/instagram/master/_listings/instagram/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Instagram",
+	"include": [
+		{
+			"name": "Instagram",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/instagram/master/_listings/instagram/apis.yaml"
+		}
+	]
+}

@@ -12,126 +12,141 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Instagram
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-30"
+modified: "2018-08-30"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/instagram/master/_listings/instagram/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Instagram Instagram Media Comments
-  x-api-slug: instagram
+- name: Instagram Graph API - Instagram Media Comments
+  x-api-slug: 123instagrammediaid125comments-get
   description: Instagram Media Comments
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png
   humanURL: http://instagram.com
-  baseURL: https://graph.facebook.com//v3.0//&#123;instagram-media-id&#125;/comments
-  tags: Instagram,Media,Comments
+  baseURL: https://graph.facebook.com//v3.0
+  tags: Images, Social, My API Stack, Indie EdTech Data Jam, Imports, Change Log Example,
+    Stack Network, Stack, Media, Photos, API Provider, Photos, Photos, Profiles, General
+    Data, Service API, Relative Data, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/instagram/master/_listings/instagram/123instagrammediaid125comments-get-openapi.md
-- name: Instagram Instagram User
-  x-api-slug: instagram
+- name: Instagram Graph API - Instagram User
+  x-api-slug: 123instagramuserid125-get
   description: Instagram User
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png
   humanURL: http://instagram.com
-  baseURL: https://graph.facebook.com//v3.0//&#123;instagram-user-id&#125;
-  tags: Instagram,User
+  baseURL: https://graph.facebook.com//v3.0
+  tags: Images, Social, My API Stack, Indie EdTech Data Jam, Imports, Change Log Example,
+    Stack Network, Stack, Media, Photos, API Provider, Photos, Photos, Profiles, General
+    Data, Service API, Relative Data, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/instagram/master/_listings/instagram/123instagramuserid125-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/instagram/master/_listings/instagram/123instagramuserid125-get-openapi.md
-- name: Instagram Instagram User Agencies
-  x-api-slug: instagram
+- name: Instagram Graph API - Instagram User Agencies
+  x-api-slug: 123instagramuserid125agencies-get
   description: Instagram User Agencies
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png
   humanURL: http://instagram.com
-  baseURL: https://graph.facebook.com//v3.0//&#123;instagram-user-id&#125;/agencies
-  tags: Instagram,User,Agencies
+  baseURL: https://graph.facebook.com//v3.0
+  tags: Images, Social, My API Stack, Indie EdTech Data Jam, Imports, Change Log Example,
+    Stack Network, Stack, Media, Photos, API Provider, Photos, Photos, Profiles, General
+    Data, Service API, Relative Data, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/instagram/master/_listings/instagram/123instagramuserid125agencies-get-openapi.md
-- name: Instagram Instagram User Authorized Adaccounts
-  x-api-slug: instagram
+- name: Instagram Graph API - Instagram User Authorized Adaccounts
+  x-api-slug: 123instagramuserid125authorized-adaccounts-get
   description: Instagram User Authorized Adaccounts
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png
   humanURL: http://instagram.com
-  baseURL: https://graph.facebook.com//v3.0//&#123;instagram-user-id&#125;/authorized_adaccounts
-  tags: Instagram,User,Authorized,Adaccounts
+  baseURL: https://graph.facebook.com//v3.0
+  tags: Images, Social, My API Stack, Indie EdTech Data Jam, Imports, Change Log Example,
+    Stack Network, Stack, Media, Photos, API Provider, Photos, Photos, Profiles, General
+    Data, Service API, Relative Data, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/instagram/master/_listings/instagram/123instagramuserid125authorized-adaccounts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/instagram/master/_listings/instagram/123instagramuserid125authorized-adaccounts-get-openapi.md
-- name: Instagram Instagram Media
-  x-api-slug: instagram
+- name: Instagram Graph API - Instagram Media
+  x-api-slug: 123instagrammediaid125-get
   description: Instagram Media
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png
   humanURL: http://instagram.com
-  baseURL: https://graph.facebook.com//v3.0//&#123;instagram-media-id&#125;
-  tags: Instagram,Media
+  baseURL: https://graph.facebook.com//v3.0
+  tags: Images, Social, My API Stack, Indie EdTech Data Jam, Imports, Change Log Example,
+    Stack Network, Stack, Media, Photos, API Provider, Photos, Photos, Profiles, General
+    Data, Service API, Relative Data, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/instagram/master/_listings/instagram/123instagrammediaid125-get-openapi.md
-- name: Instagram Instagram Comment
-  x-api-slug: instagram
+- name: Instagram Graph API - Instagram Comment
+  x-api-slug: 123instagramcommentid125-get
   description: Instagram Comment
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png
   humanURL: http://instagram.com
-  baseURL: https://graph.facebook.com//v3.0//&#123;instagram-comment-id&#125;
-  tags: Instagram,Comment
+  baseURL: https://graph.facebook.com//v3.0
+  tags: Images, Social, My API Stack, Indie EdTech Data Jam, Imports, Change Log Example,
+    Stack Network, Stack, Media, Photos, API Provider, Photos, Photos, Profiles, General
+    Data, Service API, Relative Data, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/instagram/master/_listings/instagram/123instagramcommentid125-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/instagram/master/_listings/instagram/123instagramcommentid125-get-openapi.md
-- name: Instagram Instagram Carousel
-  x-api-slug: instagram
+- name: Instagram Graph API - Instagram Carousel
+  x-api-slug: 123instagramcarouselid125-get
   description: Instagram Carousel
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png
   humanURL: http://instagram.com
-  baseURL: https://graph.facebook.com//v3.0//&#123;instagram-carousel-id&#125;
-  tags: Instagram,Carousel
+  baseURL: https://graph.facebook.com//v3.0
+  tags: Images, Social, My API Stack, Indie EdTech Data Jam, Imports, Change Log Example,
+    Stack Network, Stack, Media, Photos, API Provider, Photos, Photos, Profiles, General
+    Data, Service API, Relative Data, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/instagram/master/_listings/instagram/123instagramcarouselid125-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/instagram/master/_listings/instagram/123instagramcarouselid125-get-openapi.md
-- name: Instagram Instagram Carousel Comments
-  x-api-slug: instagram
+- name: Instagram Graph API - Instagram Carousel Comments
+  x-api-slug: 123instagramcarouselid125comments-get
   description: Instagram Carousel Comments
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png
   humanURL: http://instagram.com
-  baseURL: https://graph.facebook.com//v3.0//&#123;instagram-carousel-id&#125;/comments
-  tags: Instagram,Carousel,Comments
+  baseURL: https://graph.facebook.com//v3.0
+  tags: Images, Social, My API Stack, Indie EdTech Data Jam, Imports, Change Log Example,
+    Stack Network, Stack, Media, Photos, API Provider, Photos, Photos, Profiles, General
+    Data, Service API, Relative Data, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/instagram/master/_listings/instagram/123instagramcarouselid125comments-get-openapi.md
-- name: Instagram Instagram Carousel Instagram Comments
-  x-api-slug: instagram
+- name: Instagram Graph API - Instagram Carousel Instagram Comments
+  x-api-slug: 123instagramcarouselid125instagram-comments-get
   description: Instagram Carousel Instagram Comments
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png
   humanURL: http://instagram.com
-  baseURL: https://graph.facebook.com//v3.0//&#123;instagram-carousel-id&#125;/instagram_comments
-  tags: Instagram,Carousel,Instagram,Comments
+  baseURL: https://graph.facebook.com//v3.0
+  tags: Images, Social, My API Stack, Indie EdTech Data Jam, Imports, Change Log Example,
+    Stack Network, Stack, Media, Photos, API Provider, Photos, Photos, Profiles, General
+    Data, Service API, Relative Data, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/instagram/master/_listings/instagram/123instagramcarouselid125instagram-comments-get-openapi.md
-- name: Instagram
-  x-api-slug: instagram
-  description: Instagram is an online mobile photo-sharing, video-sharing and social
-    networking service that enables its users to take pictures and videos, and share
-    them on a variety of social networking platforms, such as Facebook, Twitter, Tumblr
-    and Flickr. A distinctive feature is that it confines photos to a square shape,
-    similar to Kodak Instamatic and Polaroid images, in contrast to the 4:3 aspect
-    ratio typically used by mobile device cameras. Users can also apply digital filters
-    to their images. The maximum duration for Instagram videos is 15 seconds.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png
-  humanURL: http://instagram.com
-  baseURL: https://graph.facebook.com//v3.0
-  tags: Instagram
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/instagram/master/_listings/instagram/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://infermedica.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://instagram.stack.network
 - type: x-application-management
   url: https://instagram.com/accounts/manage_access/
 - type: x-authentication
